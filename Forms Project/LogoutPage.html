@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout</title>
+
+    <script>
+        // Clear stored user data (optional)
+        localStorage.removeItem("loggedInUser");
+
+        // Redirect after 2 seconds
+        setTimeout(() => {
+            window.location.href = "LoginPage.html";
+        }, 2000);
+    </script>
+</head>
+<body>
+
+<h2>You have been logged out</h2>
+<p>Redirecting to login page...</p>
+
+</body>
+</html>
